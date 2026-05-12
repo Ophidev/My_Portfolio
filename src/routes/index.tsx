@@ -11,7 +11,7 @@ import { Contact } from "@/components/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aditya Bhatt — Full-Stack Developer" },
+      { title: "Aditya Bhatt — Portfolio" },
       {
         name: "description",
         content:

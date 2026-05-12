@@ -72,40 +72,65 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+
+      // Page Title
       { title: "Aditya Bhatt — Portfolio" },
+
+      // SEO
       {
         name: "description",
         content:
           "Portfolio of Aditya Bhatt — Full-Stack Developer building performant web experiences.",
       },
+
       { name: "author", content: "Aditya Bhatt" },
+
+      // Open Graph
       { property: "og:title", content: "Aditya Bhatt — Portfolio" },
+
       {
         property: "og:description",
         content:
           "Explore projects, experience, and skills across React, Remix, Node.js, and Shopify apps.",
       },
+
       { property: "og:type", content: "website" },
+
+      // Twitter
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "Aditya Bhatt — Portfolio" },
     ],
+
     links: [
+      // Fonts
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
+
       {
         rel: "preconnect",
         href: "https://fonts.gstatic.com",
         crossOrigin: "anonymous",
       },
+
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
       },
+
+      // App CSS
       {
         rel: "stylesheet",
         href: appCss,
       },
+
+      // Rounded Favicon 
+      {
+        rel: "icon",
+        type: "image/png",
+        href: "https://github.com/AdityaBhatt37/MyPortfolio/blob/master/public/images/adOrignal.JPG?raw=true",
+      },
     ],
   }),
+
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
