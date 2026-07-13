@@ -2,25 +2,25 @@ type Skill = { name: string; slug: string; color: string };
 
 const groups: { title: string; emoji: string; items: Skill[] }[] = [
   {
-    title: "Frontend",
-    emoji: "🎨",
+    title: "Programming",
+    emoji: "💻",
     items: [
-      { name: "React", slug: "react", color: "61DAFB" },
       { name: "JavaScript", slug: "javascript", color: "F7DF1E" },
-      { name: "TypeScript", slug: "typescript", color: "3178C6" },
-      { name: "Redux", slug: "redux", color: "764ABC" },
-      { name: "TailwindCSS", slug: "tailwindcss", color: "06B6D4" },
-      { name: "HTML5", slug: "html5", color: "E34F26" },
-      { name: "CSS3", slug: "css", color: "1572B6" },
+      { name: "HTML", slug: "html5", color: "E34F26" },
+      { name: "CSS", slug: "css3", color: "1572B6" },
     ],
   },
   {
-    title: "Frameworks",
-    emoji: "🧩",
+    title: "Frontend",
+    emoji: "🎨",
     items: [
+      { name: "React.js", slug: "react", color: "61DAFB" },
       { name: "Remix", slug: "remix", color: "FFFFFF" },
       { name: "React Router", slug: "reactrouter", color: "CA4245" },
-      { name: "Vite", slug: "vite", color: "646CFF" },
+      { name: "Redux", slug: "redux", color: "764ABC" },
+      { name: "Tailwind CSS", slug: "tailwindcss", color: "06B6D4" },
+      { name: "Shopify Polaris", slug: "shopify", color: "7AB55C" },
+      { name: "WordPress", slug: "wordpress", color: "21759B" },
     ],
   },
   {
@@ -28,40 +28,44 @@ const groups: { title: string; emoji: string; items: Skill[] }[] = [
     emoji: "⚙️",
     items: [
       { name: "Node.js", slug: "nodedotjs", color: "5FA04E" },
-      { name: "Express", slug: "express", color: "FFFFFF" },
+      { name: "Express.js", slug: "express", color: "FFFFFF" },
       { name: "MongoDB", slug: "mongodb", color: "47A248" },
       { name: "REST APIs", slug: "openapiinitiative", color: "6BA539" },
-      { name: "Socket.io", slug: "socketdotio", color: "FFFFFF" },
+      { name: "JWT Auth", slug: "jsonwebtokens", color: "FFFFFF" },
+      { name: "GraphQL", slug: "graphql", color: "E10098" },
+      { name: "Shopify Admin API", slug: "shopify", color: "7AB55C" },
+      { name: "Webhooks", slug: "webhooks", color: "FFFFFF" },
     ],
   },
   {
-    title: "DevOps & Cloud",
+    title: "DevOps",
     emoji: "🚀",
     items: [
       { name: "Linux", slug: "linux", color: "FCC624" },
       { name: "Docker", slug: "docker", color: "2496ED" },
-      { name: "GitHub Actions", slug: "githubactions", color: "2088FF" },
-    ],
-  },
-  {
-    title: "Tools",
-    emoji: "🛠️",
-    items: [
       { name: "Git", slug: "git", color: "F05032" },
       { name: "GitHub", slug: "github", color: "FFFFFF" },
-      { name: "Postman", slug: "postman", color: "FF6C37" },
-      { name: "VS Code", slug: "visualstudiocode", color: "007ACC" },
-      { name: "npm", slug: "npm", color: "CB3837" },
+      { name: "Jenkins", slug: "jenkins", color: "D24939" },
+      { name: "CI/CD", slug: "githubactions", color: "2088FF" },
+      { name: "Render", slug: "render", color: "46E3B7" },
+      { name: "Netlify", slug: "netlify", color: "00C7B7" },
     ],
   },
   {
-    title: "Platforms & Learning",
-    emoji: "📚",
+    title: "Application Security",
+    emoji: "🛡️",
     items: [
-      { name: "Shopify", slug: "shopify", color: "7AB55C" },
-      { name: "WordPress", slug: "wordpress", color: "21759B" },
-      { name: "Kubernetes", slug: "kubernetes", color: "326CE5" },
-      { name: "Jenkins (basics)", slug: "jenkins", color: "D24939" },
+      { name: "OWASP Top 10", slug: "owasp", color: "FFFFFF" },
+      { name: "Secure Coding", slug: "sonarqube", color: "4E9BCD" },
+      { name: "Auth & Authz", slug: "auth0", color: "EB5424" },
+      { name: "API Security", slug: "openapiinitiative", color: "6BA539" },
+      { name: "JWT Security", slug: "jsonwebtokens", color: "FFFFFF" },
+      { name: "CORS", slug: "w3c", color: "005A9C" },
+      { name: "CSRF", slug: "w3c", color: "005A9C" },
+      { name: "CSP", slug: "w3c", color: "005A9C" },
+      { name: "HTTPS/TLS", slug: "letsencrypt", color: "003A70" },
+      { name: "Burp Suite", slug: "portswigger", color: "FF6633" },
+      { name: "Postman", slug: "postman", color: "FF6C37" },
     ],
   },
 ];
@@ -75,8 +79,7 @@ export function Skills() {
           Skills &amp; <span className="text-gradient">Tech Stack</span>
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl">
-          The tools I reach for daily — and the ones I'm actively leveling up on the road
-          to a DevOps + Full-Stack engineer role.
+          The core technologies I use to build scalable applications, alongside the security practices and DevOps tools I am actively integrating into my workflow.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {groups.map((g, gi) => (

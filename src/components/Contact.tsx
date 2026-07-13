@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Github, Linkedin, Globe } from "lucide-react";
 const items = [
   { icon: Mail, label: "bhattadi60@gmail.com", href: "mailto:bhattadi60@gmail.com" },
   { icon: Phone, label: "+91 95283 65479", href: "tel:+919528365479" },
-  { icon: Globe, label: "adityabhatt.me", href: "https://adityabhatt.ophid7.workers.dev/" },
+  { icon: Globe, label: "adityabhatt.ophid7.workers.dev", href: "https://adityabhatt.ophid7.workers.dev/" },
   { icon: Github, label: "github.com/Ophidev", href: "https://github.com/Ophidev" },
   { icon: Linkedin, label: "linkedin.com/in/aditya-bhatt3737", href: "https://linkedin.com/in/aditya-bhatt3737" },
   { icon: MapPin, label: "Uttarkashi, Uttarakhand, India" },

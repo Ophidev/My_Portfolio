@@ -16,21 +16,16 @@ export function About() {
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I'm a Full-Stack Developer based in Uttarakhand, India, currently shipping
-              production Shopify applications at{" "}
-              <span className="text-foreground font-medium">Unova</span> with React, Remix and
-              Node.js.
+              I'm a Professional Software Engineer currently shipping production Shopify applications at{" "}
+              <span className="text-foreground font-medium">Unova</span>.
             </p>
             <p>
-              Lately I've gone deep into <span className="text-foreground font-medium">DevOps</span> —
-              Linux, Docker, CI/CD pipelines, container orchestration and cloud workflows. My
-              goal is to grow into a role where I can own a service end-to-end: from the React
-              UI down to the Dockerfile, the pipeline, and the server it runs on.
+              With strong backend development skills, I have extensive experience working with APIs, authentication, GraphQL, debugging, and production deployments.
+              I am comfortable working in Linux environments and have hands-on experience with Docker,Jenkins CI/CD, Git, and modern development workflows.
             </p>
             <p>
-              I also publish everything I learn as open notes on GitHub so other engineers can
-              benefit. Two of those — <span className="text-foreground">DevOps Notes</span> and{" "}
-              <span className="text-foreground">Node.js Notes</span> — are linked below.
+              I am passionate about understanding how applications work internally and how to secure them.
+              I am continuously learning Application Security, OWASP Top 10, Secure Coding, and DevSecOps practices.
             </p>
           </div>
         </div>

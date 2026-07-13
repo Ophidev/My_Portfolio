@@ -2,17 +2,7 @@ import { BookOpen, Github, ArrowUpRight } from "lucide-react";
 
 const notes = [
   {
-    title: "DevOps Notes",
-    tagline: "Linux • Docker • CI/CD • Cloud",
-    description:
-      "A growing knowledge base of everything I learn on my journey to becoming a DevOps engineer — from Linux internals and shell scripting to Docker, networking and pipelines. Written as clean, structured Markdown anyone can read and learn from.",
-    topics: ["Linux", "Bash", "Docker", "Networking", "CI/CD", "Nginx"],
-    href: "https://github.com/Ophidev/DevOps_Notes",
-    accent: "from-primary/30 to-secondary/20",
-    emoji: "🚀",
-  },
-  {
-    title: "Node.js Notes",
+    title: "NodeJS Backend Notes",
     tagline: "Backend • Express • Async • APIs",
     description:
       "Deep-dive notes on Node.js — event loop, modules, streams, async patterns, Express fundamentals, REST API design, auth, error handling and production-grade backend practices.",
@@ -20,6 +10,16 @@ const notes = [
     href: "https://github.com/Ophidev/Node_js-Notes",
     accent: "from-secondary/30 to-primary/20",
     emoji: "📗",
+  },
+  {
+    title: "DevOps Notes",
+    tagline: "Linux • Docker • CI/CD • Cloud",
+    description:
+      "A growing knowledge base of everything I learn on my journey, from Linux internals and shell scripting to Docker, networking and CI/CD pipelines.",
+    topics: ["Linux", "Bash", "Docker", "Networking", "CI/CD", "Nginx"],
+    href: "https://github.com/Ophidev/DevOps_Notes",
+    accent: "from-primary/30 to-secondary/20",
+    emoji: "🚀",
   },
 ];
 

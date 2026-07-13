@@ -2,40 +2,34 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "MateMatch",
-    tagline: "Full-Stack Roommate Matching Platform",
+    title: "SentinelAI",
+    tagline: "AI-Powered Web Security Scanner",
     description:
-      "A scalable platform helping students and professionals discover compatible roommates with real-time chat, JWT auth, and a modular React frontend.",
+      "A comprehensive security scanning tool for detecting OWASP Top 10 vulnerabilities with AI-assisted vulnerability analysis. Features secure REST APIs, JWT authentication, and a containerized backend.",
     tech: [
       "React",
-      "Vite",
-      "Redux",
       "Node.js",
-      "Express",
       "MongoDB",
-      "Socket.io",
-      "TailwindCSS",
+      "Docker",
+      "JWT Auth",
     ],
-    github: "https://github.com/Ophidev/MateMatch",
-    live: "https://github.com/Ophidev/MateMatch",
-    logo:
-      "https://raw.githubusercontent.com/Ophidev/MateMatch/master/Frontend/src/images/logo.png",
+    github: "https://github.com/Ophidev/SentinelAI",
+    live: "https://github.com/Ophidev/SentinelAI",
+    logo: "https://api.iconify.design/lucide:shield-check.svg?color=%23ffffff",
     accent: "from-primary/20 to-secondary/20",
   },
-
   {
     title: "FitFlow",
     tagline: "Full-Stack Fitness Planner",
     description:
-      "Workout tracking and fitness planner with personalized scheduling, set tracking, historical analytics, and a clean layered backend with JWT auth.",
+      "Workout tracking and fitness planner featuring a secure backend architecture with JWT authentication, robust REST APIs, and a fully dockerized Express.js server.",
     tech: [
-      "React",
-      "Redux",
-      "Node.js",
-      "Express",
+      "Express.js",
       "MongoDB",
-      "TailwindCSS",
-      "DaisyUI",
+      "Node.js",
+      "Docker",
+      "REST APIs",
+      "JWT Auth",
     ],
     github: "https://github.com/Ophidev/FitFlow",
     live: "https://github.com/Ophidev/FitFlow",
@@ -43,26 +37,21 @@ const projects = [
       "https://raw.githubusercontent.com/Ophidev/FitFlow/main/Frontend/src/assets/logoo.png",
     accent: "from-secondary/20 to-primary/20",
   },
-
   {
     title: "Shopify App Contributions",
     tagline: "Production Apps @ Unova",
     description:
-      "Contributed to live Shopify applications including Auto Hide/Unhide Products and Collection Sort & Push Down Sold Out — features, debugging, and stability.",
-
+      "Contributed to live production applications for Shopify merchants. Focused on robust GraphQL API integrations, handling Webhooks, managing merchant workflows, and secure authentication.",
     tech: [
       "React",
-      "Remix",
-      "React-router framework",
+      "GraphQL",
+      "Webhooks",
       "Shopify APIs",
       "Node.js",
     ],
-
-    live: "https://apps.shopify.com/partners/gamenow",
-
+    live: "https://apps.shopify.com/partners/developer-84536043624c65bc",
     logo:
       "https://cdn.shopify.com/static/images/logos/shopify-bag.png",
-
     accent: "from-primary/20 to-secondary/20",
   },
 ];
